@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f7666162-c482-470e-8f21-a38ef1187d9c" name="webhook_tg_bot">
+        <fileTransfer rootFolder="/root/webhook_tg_bot" accessType="SFTP" host="68.183.212.198" port="22" sshConfigId="eff7f8e8-86eb-418c-a506-b9eb644821d5" sshConfig="root@68.183.212.198:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

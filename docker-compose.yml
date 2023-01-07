@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  bot:
+    build: .
+    volumes:
+      - .:/webhook_tg_bot
+    ports:
+      - 8003:8003
+    image: app:webhook_tg_bot
+    container_name: webhook_tg_container
+    command: python main.py
+
